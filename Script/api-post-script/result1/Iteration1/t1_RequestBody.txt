@@ -1,8 +1,0 @@
-"{\r\n"
-""musical_style": "trash",\r\n"
-""group_name": "metallica",\r\n"
-""album": "kill `em all",\r\n"
-""release_year": 1986,\r\n"
-""carrier": "cd",\r\n"
-""description": "description"\r\n"
-"}"
