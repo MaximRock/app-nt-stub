@@ -1,0 +1,8 @@
+"{\r\n"
+""musical_style": "{musical_style}",\r\n"
+""group_name": "{group_name}",\r\n"
+""album": "{album}",\r\n"
+""release_year": 1984,\r\n"
+""carrier": "{NewParam}",\r\n"
+""description": "description"\r\n"
+"}"

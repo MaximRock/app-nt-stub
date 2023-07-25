@@ -1,0 +1,8 @@
+[post]
+SnapshotIndex=I1_post
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[put_script]
+SnapshotIndex=I1_put_script
+[get]
+SnapshotIndex=I1_get

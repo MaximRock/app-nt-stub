@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\VuGen\Scripts\get-script
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\get-script\\logfile.log
+c:\users\user\documents\vugen\scripts\get-script\\combined_get-script.c
+c:\users\user\documents\vugen\scripts\get-script\\pre_cci.c

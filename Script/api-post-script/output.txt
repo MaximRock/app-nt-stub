@@ -1,0 +1,28 @@
+Virtual User Script started at: Tue 25.07.23 15:38:00
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\VuGen\Scripts\api-post-script\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action post_script.
+post_script.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+post_script.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+post_script.c(5): web_rest("POST: http://127.0.0.1:5000/music") started  	[MsgId: MMSG-26355]
+post_script.c(5): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+post_script.c(5): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+post_script.c(5): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+post_script.c(5): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+post_script.c(5): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+post_script.c(5): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+post_script.c(5): Notify: ****************   End of messages from web_add_header   *****************
+post_script.c(5): web_rest("POST: http://127.0.0.1:5000/music") was successful, 220 body bytes, 166 header bytes  	[MsgId: MMSG-26386]
+Ending action post_script.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

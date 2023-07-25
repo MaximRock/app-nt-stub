@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>api-get-script</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="post.c" Filter="2" />
+    <FileEntry Name="get_script.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="api-get-script.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="api-get-script.sdf" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvB6S.305.log" Filter="1" />
+    <FileEntry Name="mdrveqv.415.log" Filter="1" />
+    <FileEntry Name="mdrvfr3.365.log" Filter="1" />
+    <FileEntry Name="mdrvJ3K.459.log" Filter="1" />
+    <FileEntry Name="mdrvrhb.41.log" Filter="1" />
+    <FileEntry Name="mdrvS3U.19.log" Filter="1" />
+    <FileEntry Name="mdrvTH9.299.log" Filter="1" />
+    <FileEntry Name="mdrvVLp.807.log" Filter="1" />
+    <FileEntry Name="mdrvvV2.533.log" Filter="1" />
+    <FileEntry Name="mdrvxdE.665.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

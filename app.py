@@ -21,7 +21,7 @@ from models import *
 Base.metadata.create_all(bind=engine)
 
 
-@app.route('/music', methods=['GET'])
+@app.route('/music/all', methods=['GET'])
 def get_list():
     music_db = Music.query.all()
     serialized = []
@@ -56,6 +56,22 @@ def update_list():
     }
     return jsonify(serialized)
 
+
+@app.route('/music/<int:music_id>', methods=['GET'])
+def get_list_id(music_id):
+    item = Music.query.filter(Music.id == music_id).first()
+
+    serialized = {
+        'id': item.id,
+        'datetime': item.datetime,
+        'musical_style': item.musical_style,
+        'group_name': item.group_name,
+        'album': item.album,
+        'release_year': item.release_year,
+        'carrier': item.carrier,
+        'description': item.description
+    }
+    return jsonify(serialized)
 
 @app.route('/music/<int:music_id>', methods=['PUT'])
 def update_tutorial(music_id):

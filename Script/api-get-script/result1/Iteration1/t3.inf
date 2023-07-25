@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=application/json
+StepName=Rest Request: GET: http://127.0.0.1:5000/music/{id}
+Total=1
+FileName1=t3.json
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1690288496977
+RawStepName=GET: http://127.0.0.1:5000/music/{id}
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1690288496892
+URL1=http://127.0.0.1:5000/music/4

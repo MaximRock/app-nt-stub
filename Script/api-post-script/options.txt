@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\VuGen\Scripts\api-post-script
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\vugen\scripts\api-post-script\\logfile.log
+c:\users\user\documents\vugen\scripts\api-post-script\\combined_api-post-script.c
+c:\users\user\documents\vugen\scripts\api-post-script\\pre_cci.c

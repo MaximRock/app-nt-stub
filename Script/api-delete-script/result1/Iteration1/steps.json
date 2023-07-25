@@ -1,0 +1,14 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Rest Request: POST: http://127.0.0.1:5000/music",
+        "infFile": "t2.inf",
+        "time": 1690288433447
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Rest Request: DELETE: http://127.0.0.1:5000/music/{id}",
+        "infFile": "t3.inf",
+        "time": 1690288434698
+    }
+]
